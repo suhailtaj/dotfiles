@@ -19,3 +19,16 @@ fi
 
 # VS Code Alias Function
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+
+# Docker Alias
+alias dps='docker ps -a'
+alias d='docker $@'
+alias dc='docker-compose $@'
+alias di='docker images'
+function din(){
+	docker exec -i -t $1 /bin/sh
+}
+
+
+# Custom alias
+alias c='clear'

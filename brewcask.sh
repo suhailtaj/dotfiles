@@ -23,6 +23,7 @@ brew cask install dash
 brew cask install macdown
 brew cask install slack
 brew cask install KeepingYouAwake
+brew cask install skitch
 
 # miscellaneous
 brew cask install spotify
